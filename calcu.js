@@ -9,7 +9,8 @@ function removech(){
 	tbcal=tbcal.substring(0,tbcal.length -1);
 	useinp.value = tbcal;
 }
-function execm(){
+function execm()
+{
 	if(tbcal.length==0||tbcal==""){
 		alert("Needs a input");
 		return;
@@ -22,7 +23,8 @@ function execm(){
 		alert("Invalid Input");
 	}
 }
-function reset(){
+function reset()
+{
 	useinp.value="";
 	compinp.value="";
 	tbcal="";
